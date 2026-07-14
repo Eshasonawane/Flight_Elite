@@ -1,5 +1,12 @@
 package com.mmcoe.entity;
 
+
+import javax.persistence.Entity;
+
+import org.springframework.stereotype.Component;
+
+@Component
+@Entity
 public class Flight {
 	int code;
 	String carrier;
