@@ -1,16 +1,27 @@
 package com.mmcoe.entity;
 
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
 import org.springframework.stereotype.Component;
 
 @Component
 @Entity
+@Table(name="flights")
 public class Flight {
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	int code;
+	@Column(length = 50)
 	String carrier;
+	@Column(length=30)
 	String source;
+	@Column(length = 30)
 	String destination;
 	@Override
 	public String toString() {
