@@ -9,7 +9,11 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 import org.springframework.stereotype.Component;
-
+/**
+ * @author Abhinav
+ * @version 1.0
+ * @since 2026-07-15
+ */
 @Component
 @Entity
 @Table(name="flights")

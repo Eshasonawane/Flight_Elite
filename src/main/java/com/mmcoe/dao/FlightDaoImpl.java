@@ -13,7 +13,11 @@ import javax.persistence.TypedQuery;
 import org.springframework.stereotype.Repository;
 
 import com.mmcoe.entity.Flight;
-
+/**
+ * @author Abhinav
+ * @version 1.0
+ * @since 2026-07-15
+ */
 @Repository
 public class FlightDaoImpl implements FlightDao {
 

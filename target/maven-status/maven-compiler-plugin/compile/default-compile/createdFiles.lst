@@ -1,0 +1,8 @@
+com\mmcoe\service\FlightServiceImpl.class
+com\mmcoe\dao\FlightDaoImpl.class
+com\mmcoe\service\FlightNotFoundException.class
+com\mmcoe\service\FlightService.class
+com\mmcoe\dao\FlightDao.class
+com\mmcoe\entity\Flight.class
+com\mmcoe\service\FlightAlreadyExistsException.class
+com\mmcoe\service\InvalidFlightException.class

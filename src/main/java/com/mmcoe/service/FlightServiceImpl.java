@@ -7,7 +7,11 @@ import org.springframework.stereotype.Service;
 
 import com.mmcoe.dao.FlightDao;
 import com.mmcoe.entity.Flight;
-
+/**
+ * @author Esha Sonawane
+ * @version 1.0
+ * @since 2026-07-10
+ */
 @Service
 public class FlightServiceImpl implements FlightService {
 
