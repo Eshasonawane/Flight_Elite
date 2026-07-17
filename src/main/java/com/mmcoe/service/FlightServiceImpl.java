@@ -36,7 +36,7 @@ public class FlightServiceImpl implements FlightService {
 		Flight f=dao.findByCode(code);
 		if(f==null)
 		{
-			throw new FlightNotFoundException("Flight not found for code: "+f.getCode());
+			throw new FlightNotFoundException("Flight not found for code: "+code);
 		}
 		return f;
 	}
@@ -78,7 +78,7 @@ public class FlightServiceImpl implements FlightService {
 		Flight flight=dao.findByCode(code);
 		if(flight==null)
 		{
-			throw new FlightNotFoundException("Flight not found for code: "+flight.getCode());
+			throw new FlightNotFoundException("Flight not found for code: "+code);
 		}
 		return dao.delete(code);
 	}
